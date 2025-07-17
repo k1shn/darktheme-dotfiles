@@ -1,0 +1,410 @@
+/* 
+This is default and very simple styles file for Yasb. 
+For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
+*/
+:root {
+    --mauve: #FFFFFF;
+    --red: #FFFFFF;
+    --yellow: #FFFFFF;
+    --blue: #FFFFFF;
+    --lavender: #FFFFFF;
+    --text: #FFFFFF;
+    --subtext1: #FFFFFF;
+    --subtext0: #FFFFFF;
+    --overlay2: #ffffff;
+    --overlay1: #ffffff;
+    --overlay0: #ffffff;
+    --surface2: #ffffff;
+    --surface1: #e2e2e2;
+    --surface0: #bdbdbd;
+    --base: #ffffff;
+    --crust: rgba(255, 255, 255, 0.144);
+}
+/* Global styles for ToolTip */
+QToolTip {
+    padding: 6px;
+    color: #cdd6f4;
+    font-size: 12px;
+    background-color: #1e1e2e;
+    border: 0px solid #313244;
+    border-radius: 6px;
+}
+
+.wallpapers-widget {
+    padding: 0 6px 0 6px;
+}
+.wallpapers-gallery-window {
+    background-color: rgba(85, 42, 240, 0.01);
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin:0 8px 8px 8px;
+    width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:rgba(255, 255, 255, 0.1)
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid rgb(66, 68, 83);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid #89b4fa;
+}
+
+* {
+    font-size: 12px;
+    color: var(--text);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+    background-color: var(--crust);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.widget {
+    padding: 0 12px;
+    margin: 0;
+}
+.icon {
+    font-size: 16px;
+}
+.widget .label {
+    padding: 0px 2px;
+}
+
+.komorebi-active-layout {
+    padding: 0 -4px 0 0;
+}
+.komorebi-active-layout .label {
+    font-weight: 600;
+    padding: 2px 0 0 0;
+}
+
+.komorebi-workspaces .widget-container {
+  background-color: transparent;
+  border-radius: 10%;
+}
+
+.komorebi-workspaces .ws-btn {
+    border: none;
+    color: #ffffff ;
+    margin: 0 1px 0 0px;
+    height: 30px;
+    width: 20px;
+    padding: 0 3px;
+  border-radius: 10%;
+}
+
+.komorebi-workspaces .ws-btn.populated {
+    color: #FFFFFF;
+    font-weight: 500;
+  border-radius: 10%;
+}
+
+.komorebi-workspaces .ws-btn.active {
+    color:#FFFFFF;
+    font-weight: 500;
+  border-radius: 10%;
+}
+
+.komorebi-workspaces .widget-container .ws-btn.active {
+  background-color: rgba(0, 0, 0, 0.397);
+  height: 30px;
+  
+}
+.apps-widget {
+    padding: 0 4px 0 2px;
+}
+.apps-widget .label {
+    font-size: 14px;
+    padding: 0 2px;
+    color: var(--subtext0);
+    
+}
+.apps-widget .label:hover {
+    color: var(--text);
+}
+
+.power-menu-widget .label {
+    color: #ff0048;
+    font-size: 13px;
+}
+.power-menu-popup {
+    background-color: transparent
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 8px;
+    background-color: var(--crust);
+    color: var(--text);
+    border-left: 4px solid rgba(58, 59, 83, 0);
+    border-right: 4px solid rgba(58, 59, 83, 0);
+    border-top: 4px solid rgba(58, 59, 83, 0);
+    border-bottom: 4px solid rgba(58, 59, 83, 0);
+    margin: 0px;
+}
+.power-menu-popup .button.hover {
+    background-color: var(--base);
+    border-left: 4px solid var(--base);
+    border-right: 4px solid var(--base);
+    border-top: 4px solid var(--base);
+    border-bottom: 4px solid var(--base);
+}
+
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--overlay2)
+}
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 32px;
+    color: var(--surface2)
+}
+
+.power-menu-popup .button.cancel .icon {
+    padding: 0;
+    margin: 0;
+}
+.power-menu-popup .button.cancel .label {
+    color: var(--red);
+    margin: 0;
+}
+.power-menu-popup .button.cancel {
+    height: 32px;
+    border-radius: 4px;
+}
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--surface2);
+    font-weight: 600;
+}
+.microphone-widget {
+    padding: 0 6px 0 6px;
+}
+.microphone-widget .icon {
+    font-size: 18px;
+}
+.microphone-widget .icon {
+    color: var(--mauve);
+}
+.volume-widget .icon {
+    font-size: 17px;
+    color: var(--blue);
+    margin: 0px 2px 0 0;
+}
+.weather-widget,
+.volume-widget {
+    padding: 0 6px;
+}
+.weather-widget .icon {
+    font-size: 18px;
+    margin: 0 2px 1px 0;
+    color: var(--yellow);
+}
+.media-widget {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+}
+.media-widget .label {
+    color: #000000;
+    padding: 0px;
+    padding-right: 4px;
+    font-size: 12px;
+}
+.media-widget .btn {
+    color: #7a7f8b;
+    padding: 0 4px;
+    margin: 0;
+    font-family: "JetBrainsMono NFP";
+    font-weight: 400;
+    font-size: 20px;
+}
+.media-widget .btn:hover {
+    color: #babfd3;
+}
+.media-widget .btn.play {
+    font-size: 24px;
+    color: #989caa;
+}
+.media-widget .btn.disabled:hover,
+.media-widget .btn.disabled {
+    color: #4e525c;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+}
+.home-widget {
+    padding: 0 4px 0 12px;
+}
+.home-widget .icon {
+    color: var(--lavender);
+}
+.home-widget .icon:hover {
+    color: var(--text);
+}
+.home-menu {
+    background-color: var(--crust);
+    border-radius: 8px;
+}
+.home-menu .menu-item {
+    padding: 8px 48px 9px 16px;
+    font-size: 12px;
+    color: var(--text);
+    font-weight: 600;
+}
+.home-menu .menu-item:hover {
+    background-color: rgba(128, 130, 158, 0.15);
+    color: #fff;
+}
+.home-menu .separator {
+    max-height: 1px;
+    background-color: rgba(128, 130, 158, 0.3);
+}
+.notification-widget {
+    padding: 0 0px 0 4px;
+}
+.notification-widget .icon {
+    font-size: 14px;
+}
+.notification-widget .icon.new-notification {
+    color: var(--blue);
+}
+
+.wallpapers-widget {
+    padding: 0 6px 0 6px;
+}
+.wallpapers-gallery-window {
+    background-color: rgba(85, 42, 240, 0.01);
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin:0 8px 8px 8px;
+    width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:rgba(255, 255, 255, 0.1)
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid rgb(66, 68, 83);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid #89b4fa;
+}
+
+.media-menu {
+    min-width: 350px;
+    max-width: 350px;
+    background: var(--vista-gradient);
+    border-top: 1px solid rgba(255, 255, 255, 50);
+    border-bottom: 1px solid rgba(0, 0, 0, 80);
+}
+.media-menu .thumbnail {
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 80);
+}
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+.media-menu .artist {
+        margin-left: 9px;
+    font-size: 9px;
+    color: var(--subtle);
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.media-menu .source {
+    font-size: 11px;
+    color: var(--subtle);
+    background-color: var(--vista-overlay-gradient);
+    border: 1px solid rgba(51, 49, 49, 255);
+    border-top-color: rgba(255, 255, 255, 50);
+    border-bottom-color: rgba(0, 0, 0, 80);
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+.media-menu .btn.prev {
+    margin-left: 15px;
+}
+.media-menu .btn {
+    font-size: 22px;
+    min-width: 35px;
+    max-width: 35px;
+    max-height: 35px;
+    min-height: 35px;
+    margin-right: 5px;
+    border-radius: 18px;
+    background: var(--vista-blue-bubble);
+    border: 1px solid rgba(51, 49, 49, 255);
+    border-top-color: rgba(255, 255, 255, 50);
+    border-bottom-color: rgba(0, 0, 0, 80);
+    color: var(--text);
+}
+.media-menu .btn.disabled:hover,
+.media-menu .btn.disabled {
+    color: var(--muted);
+    background-color: transparent;
+}
+.media-menu .playback-time {
+    font-size: 12px;
+    color: var(--subtle);
+    margin-top: 15px;
+    min-width: 100px;
+}
+.media-menu .progress-slider {
+    height: 12px;
+    margin: 5px 2px;
+    background: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.media-menu .progress-slider::groove {
+    border-radius: 3px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.media-menu .progress-slider::groove:hover {
+    border-radius: 3px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.media-menu .progress-slider::sub-page {
+    background: white;
+    height: 10px;
+}
