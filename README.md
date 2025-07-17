@@ -2,11 +2,13 @@ These are the dotfiles I made to style and tweak my Windows desktop setup.
 You can check out the required tools and how to install them below.
 
 🛠️ Tools Used:
-- yasb → top taskbar
-- mydockfinder → for dock style
-- wezterm → custom terminal look
-- komorebi → for window tiling
-- tacky borders → adds window borders
+| Tool            | Description                           |
+|------------------|----------------------------------------|
+| `YASB`           | Top taskbar replacement                |
+| `MyDockFinder`   | macOS-like dock                        |
+| `WezTerm`        | Aesthetic terminal                     |
+| `Komorebi`       | Tiling window manager for Windows      |
+| `Tacky Borders`  | Adds border outlines to windows        |
 
 🚀 How to Install:
 Just clone this repo and run `installer.bat`.  
