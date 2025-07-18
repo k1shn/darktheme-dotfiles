@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="assets/ico.png" alt="Project Logo" width="300" />
+</p>
+
+<p align="center">
+  <b>Config/Dotfiles by @k1shqn/b>
+</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+
 
 ### 😎 Dotfiles:
 
@@ -21,11 +33,6 @@ You can find the required tools and installation instructions below.
 
 ----------------------------------------
 
-
-### 🚀 How to Install:
-- **Installer**
-  - Clone this repository and run `installer.bat`.  
-  - The script will automatically check your system and let you know if anything is missing.
 - **Manual Install**
   - Copy all files inside each folder and paste them with the exact same names:
     - YASB: `%username%/.config/yasb`
